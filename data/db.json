@@ -1,0 +1,55 @@
+{
+  "Notes": [
+    {
+      "title": "Monday ",
+      "body": "god knows what you want even before you speak \nImam Ali",
+      "id": 2
+    },
+    {
+      "title": "bad day",
+      "body": "my note ",
+      "id": 3
+    }
+  ],
+  "Goals": [
+    {
+      "Date": "Monday",
+      "goal": "i did a lot",
+      "id": 1
+    },
+    {
+      "Date": "Monday",
+      "goal": "type 1",
+      "id": 2
+    },
+    {
+      "Date": "Tuesday",
+      "goal": "i did this and that on tusday ",
+      "id": 3
+    },
+    {
+      "Date": "Tuesday",
+      "goal": "ate by the rules ",
+      "id": 4
+    },
+    {
+      "Date": "Sunday",
+      "goal": "well sunday was bad",
+      "id": 5
+    },
+    {
+      "Date": "Tuesday",
+      "goal": "10 mile run",
+      "id": 6
+    },
+    {
+      "Date": "Thrusday",
+      "goal": "sauna",
+      "id": 7
+    },
+    {
+      "Date": "Monday",
+      "id": 8
+    }
+  ]
+}

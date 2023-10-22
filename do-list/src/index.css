@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  
+}
+.navbar h1 {
+
+  color: #173634;
+  font-size: xx-large;
+
+}
+
+.navbar .links {
+  margin-left: 20px;
+  margin-right: 5%;
+}
+
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color:#f1356d;
+}
+.btnote {
+  margin-top: 5%; /* Add some space between textarea and button */
+   margin-bottom: 8%; 
+   background-color:#f1356d; 
+  border-radius: 8px;
+  box-shadow: none;
+  text-shadow: none;
+  color: antiquewhite; 
+}
+.addNote{
+  background-color: #f1356d; 
+  color:antiquewhite;
+  border-radius: 8px;
+  box-shadow: none;
+  text-shadow: none;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+
+.text {
+  width: 13%; /* Adjust the width as needed */
+  height: 12em; /* Adjust the height as needed */
+  float: left;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+.note-area {
+  /* flex-direction: column; */
+  display: flex;
+  align-items: left;
+  margin-top: 25px;
+  border: 1px  solid #141313;
+  border-radius: 4px;
+  width: 40%; 
+  margin-bottom: 30px;
+  margin-left: 370px;
+}
+
+ 
+.input-size{
+   width: 50%;  
+  font-size: 16px; /* Set font size */
+  border: 1px solid #141313; /* Add a border */
+  height: 10em;
+  margin-right: 100%;
+  margin-left: 20%;
+  border-radius: 8px;
+  
+
+}
+.faseel{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+ font-size: xx-large;
+}
+.faseel-note{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+ font-size: xx-large;
+}
+.all-goals{
+  
+  
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+}
+ h1{
+  margin-right: 20%;
+}
+
+.Note-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.Note-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.Note-preview h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.Note-preview a{
+  text-decoration: none;
+}
+/* blog details page */
+.note-details h2 {
+  font-size: 20px;
+  color:#333 ;
+  margin-bottom: 10px;
+}
+.note-details div {
+  margin: 20px 0;
+}
+.note-details button {
+ 
+  background:  #333;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #1d1c1c;
+  border-radius: 15px;
+  margin-left: 140px;
+  margin-right: 80px;;
+}
+
+.input-note{
+  border: 1px solid #1d1c1c;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom:  70px;
+  width: 40%;
+  height: 20px;
+}
+.title{
+  display: inline-block;
+  margin-top: 7%;
+  font-size: 20px;
+  color: #242122;
+  margin-left: 40px;
+  font-weight: bolder;
+  
+}
+
+
+.box {
+  width: calc(33.33% - 10px);
+  margin: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding-right: 15px;
+
+}
+.boxs {
+  width: calc(33.33% - 10px);
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.content-containers {
+  display: flex;
+  flex-direction: column;
+}
+
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #242122;
+  border-radius: 10px;
+}
+
+/* button {
+  align-self: flex-start; /* Align the button to the left */
+
+.pDay{
+  font-size: 16px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Adjust the line height for spacing between lines */
+  margin: 0 0 10px; /* Margin to create space between paragraphs */
+  color: #333; /* Text color, adjust as needed */
+  font-family: Arial, sans-serif; /* Font family, adjust as needed */
+}
+
+/* Style the table container */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+
+}
+.table h1{
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+/* Style the table headers */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Style the table data cells */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Style alternating rows for better readability */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the table header row */
+thead th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style hover effect on table rows */
+tr:hover {
+  background-color: #ddd;
+}
+
+
+
