@@ -4,7 +4,7 @@ const AllGoals = () => {
     const [noteData, setNoteData] = useState([]); 
        useEffect(() => {
         // Fetch your JSON data containing goals.
-        fetch('http://localhost:8000/Goals')
+        fetch('http://localhost:3000/Goals')
             .then(res => res.json())
             .then(data => {
                 setNoteData(data);
@@ -15,7 +15,7 @@ const AllGoals = () => {
             });
     }, []);
    
-      const noteText = JSON.stringify(noteData, null, 2);
+      // const noteText = JSON.stringify(noteData, null, 2);
       
     return ( 
         <div className="table">

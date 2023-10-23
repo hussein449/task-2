@@ -13,7 +13,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const note = { title, body };
-    fetch('http://localhost:8000/Notes', {
+    fetch('http://localhost:3000/Notes', {
       method: 'POST',
       headers: { "content-type": "application/json" },
       body: JSON.stringify(note)
@@ -28,7 +28,7 @@ const Home = () => {
    
     
     
-    fetch('http://localhost:8000/Goals', {
+    fetch('http://localhost:3000/Goals', {
       method: 'POST',
       headers: { "content-type": "application/json" },
       body: JSON.stringify(newGoal)

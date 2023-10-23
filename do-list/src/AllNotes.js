@@ -4,7 +4,7 @@ import NoteList from "./NoteList";
 const AllNotes = () => {
   const [Notes, setNotes] = useState(null);
   useEffect(() => {
-    fetch('http://localhost:8000/Notes')
+    fetch('http://localhost:3000/Notes')
       .then(res => {
         return res.json();
       })
